@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover">
+    <title>我的简历</title>
+    <style>* {
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eee;
+            margin: 20px 0;
+        }
+        strong{
+            color: rgb(65,172,124);
+        }
+
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        article {
+            width: 21cm;
+            min-height: 29.7cm;
+            background-color: white;
+            margin: 0 auto;
+            overflow: auto;
+            padding: 1em;
+        }</style>
+    <style media="print">body {
+            margin: 0;
+        }</style>
+    <style>p {
+            margin: 0.3em 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+
+        .bio {
+            position: relative;
+        }
+
+        .bio img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }</style>
+    <style>/* .openSource p,
+        .keyan p {
+            color: #666;
+        } */
+
+        /*.openSource strong {*/
+        /*    color: #ff6600;*/
+        /*}*/
+
+        .openSource ul li {
+            margin-bottom: 20px;
+        }
+
+        .openSource ul li h3 {
+            display: inline-block;
+        }
+
+        .openSource ul li header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .keyan ul li header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .w{
+            display: flex;
+            flex-wrap: wrap;
+            word-wrap:break-word;
+            word-break:break-all;
+        }
+        .w div{
+            width: 33%;
+
+        }
+        a {
+            color: inherit;
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }</style>
+    <style>@media(max-width : 500px) {
+            body {
+                margin: 0;
+            }
+            article {
+                width: auto;
+                height: auto;
+            }
+            .bio img{
+                display: none;
+            }
+        }</style>
+</head>
+
+<body>
+    <article>
+        <section class="bio">
+            <h1>王旭成</h1>
+            <img src="MG_4828.ae12f1d8.JPG" alt="头像" height="100">
+            <p>
+                男|25岁|前端开发工程师|上海浦东(现居日本)
+            </p>
+            <p>
+                邮箱:wangxuchengxr7@yahoo.com | 微信:13166151076 | 手机:+81
+                8098974168(海外)
+            </p>
+        </section>
+        <section>
+            <h2>教育经历</h2>
+            <div class="w">
+                <div>2019.04~2021.03</div>
+                <div>东京理科大学(QS世界排名前800)</div>
+                <div>硕士 电气工程</div>
+                <div>2013.09~2017.06</div>
+                <div>上海工程技术大学</div> <div>本科  电气工程</div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>技能</h2>
+            <div class="wrapper">
+                <div id="skills"></div>
+                <ul>
+                    <li>熟悉<strong>HTML5/CSS3</strong>，能够编写<strong>语义化页面</strong>，掌握flex布局,<strong>盒模型</strong>等知识，并具有<strong>SCSS</strong>/Stylus使用经验</li>
+                    <li>熟悉<strong>JavaScript语法</strong>，熟悉<strong>ES6新特性</strong>。掌握包括this,Promise,闭包,原型链等在内的重要概念</li>
+                    <li>熟悉<strong>Vue框架</strong>，有相关项目经验，了解MVVM设计模式</li>
+                    <li>熟悉<strong>响应式布局</strong>，简历里所有项目都支持移动端适配</li>
+                    <li>拥有扎实的<strong>算法与数据结构</strong>知识</li>
+                    <li>了解<strong>HTTP协议</strong>等网络基础知识，了解跨域，JSONP，以及浏览器工作原理</li>
+                    <li>了解Parcel,Webpack构建工具，了解前端模块化</li>
+                </ul>
+            </div>
+        </section>
+        <section class="openSource">
+            <h2>项目经历</h2>
+            <ul>
+                <li>
+                    <header>
+                        <h3>D.va UI - 自己的ui组件库</h3>
+                        <div>
+                            <a href="https://github.com/wangxucheng1995/dva-test/tree/master" target="_blank">源码链接</a>
+                            <a href="https://wangxucheng1995.github.io/dva-test/" target="_blank">项目预览</a>
+                        </div>
+                    </header>
+
+                    <h4>项目描述</h4>
+
+                    <p>参考ElementUI等库的思路，基于<strong>Vue2.6</strong>实现了自己的<strong>UI组件库</strong>，目前实现的组件有<strong>按钮</strong>，<strong>输入框</strong>，<strong>toast消息弹窗</strong>，<strong>布局系统</strong>等
+                    </p>
+                    <p>
+                    </p><h4>主要工作</h4>
+                    <p>①分析需求，从零到一实现组件 ②统一打包,发布npm ③利用vuepress展示成果，撰写文档</p>
+                    <p><strong>技术栈 : </strong><strong>Vue</strong>/Vuepress/Parcel/ES6/<strong>SCSS</strong></p>
+                </li>
+                <li class="page2">
+                    <header>
+                        <h3>css绘制皮卡丘</h3>
+                        <p></p>
+                        <div>
+                            <a href="https://github.com/wangxucheng1995/pikachu" target="_blank">源码链接</a>
+                            <a href="https://wangxucheng1995.github.io/pikachu/dist/test.html" target="_blank">项目预览</a>
+                        </div>
+                    </header>
+
+                    <h4>项目描述</h4>
+                    <p>自己在学习css的过程中，利用CSS动态绘制皮卡丘的一个小作品。利用时间间隔器动态向
+                        &ltpre&gt与&ltstyle&gt添加文本，模拟皮卡丘的制作过程
+                    </p>
+                    <p><strong>技术栈 : </strong>JavaScript/CSS</p>
+                </li>
+                <li>
+                    <header>
+                        <h3>极简主义导航网站</h3>
+                        <span>
+                            <a href="https://github.com/wangxucheng1995/nav" target="_blank">源码链接</a>
+                            <a href="https://wangxucheng1995.github.io/nav/dist/index.html" target="_blank">项目预览</a>
+                        </span>
+                    </header>
+                    <h4>项目描述</h4>
+                    <p>一个极简主义的小清新导航网页。用户可以更改保存自己经常浏览的页面。通过敲击键盘即可跳转到相应的页面</p>
+                    <p><strong>技术栈 : </strong>jQuery/CSS布局/SessionStorage/Iconfont</p>
+                </li>
+            </ul>
+        </section>
+        <section class="keyan">
+            <h2>在校科研经历</h2>
+            <ul>
+                <li>
+                    <header>
+                        <h3>使用机器学习预测光伏发电功率</h3>
+                        <div>
+                            <a href="https://ndlonline.ndl.go.jp/#!/detail/R300000002-I030375065-00" target="_blank">论文链接</a>
+                        </div>
+                    </header>
+                    <h4>项目描述</h4>
+                    <p>基于sklearn框架，分别采用了随机深林与支持向量机算法。对日本关东地区的所有太阳能发电设备进行建模与功率预测。将工人智能技术运用于电网控制系统之中,从而更好地实现电网供给需求的调度，</p>
+                    <p>论文发表于IEEJ日本电气学会-电力技术研究会</p>
+                    <p><strong>技术栈:</strong>Python/sklearn/Tensorflow/数据分析/神经网络</p>
+                </li>
+            </ul>
+        </section>
+        <section class="others">
+            <h2>个人站点</h2>
+            <ul>
+                <li><a href="https://wangxucheng1995.github.io/" target="_blank">我的技术博客</a>，总结对前端,算法以及其他计算机领域知识的理解</li>
+                <li><a href="https://leetcode-cn.com/u/n6meng-xin/" target="_blank">我的LeetLcode</a>，用Java语言解决130多道Leetcode算法题</li>
+                <li><a href="https://github.com/wangxucheng1995" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+        <section class="otherSkill">
+            <h2>其他技能</h2>
+            <h4>Python与数据分析</h4>
+            <p>了解常用的机器学习及深度学习算法原理，使用过sklearn与TensorFlow框架</p>
+            <p>能够使用NumPy与Pandas完成基础的数据分析。并利用matplotlib完成数据可视化工作</p>
+
+            <h4>Java</h4>
+            <p>熟悉java基础语法 熟悉面向对象的编程思想</p>
+            <h4>语言技能</h4>
+            <p>托业英语855分</p>
+            <p>日语N1</p>
+        </section>
+
+    </article>
+
+    <script src="main.dfc06931.js"></script>
+</body>
+
+</html>
