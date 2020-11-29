@@ -163,14 +163,14 @@
             <div class="wrapper">
                 <div id="skills"></div>
                 <ul>
-                    <li>熟悉<strong>HTML5/CSS3</strong>，能够编写<strong>语义化页面</strong>，掌握flex布局,<strong>盒模型</strong>等知识，并具有<strong>SCSS</strong>/Stylus使用经验
+                    <li>熟悉<strong>HTML5/CSS3</strong>，能够编写<strong>语义化页面</strong>，掌握<strong>flex布局</strong>,<strong>盒模型</strong>等知识
                     </li>
-                    <li>熟悉<strong>响应式布局</strong>，简历里所有项目都支持移动端适配</li>
                     <li>熟悉<strong>JavaScript语法</strong>，熟悉<strong>ES6新特性</strong>。掌握包括this,Promise,闭包,原型链等在内的重要概念</li>
                     <li>拥有扎实的<strong>算法与数据结构</strong>知识</li>
                     <li>熟悉<strong>HTTP协议，跨域，JSONP，</strong>等网络基础知识，了解浏览器工作原理</li>
-                    <li>熟悉<strong>Vue框架</strong>，有相关项目经验，了解MVVM设计模式</li>
-                    <li>了解Parcel,Webpack构建工具，了解前端模块化</li>
+                    <li>熟悉<strong>Vue框架(Vue2+vue-router)</strong>
+                    <li>了解<strong>nodejs</strong>，并使用Express完成相关的实战项目</li>
+                    <li>了解<strong>canvas</strong>,能使用ECharts完成数据可视化工作</li>
                 </ul>
             </div>
         </section>
@@ -179,21 +179,29 @@
             <ul>
                 <li>
                     <header>
-                        <h3>Dva UI-自己的ui组件库</h3>
+                        <h3>前端机器学习-光伏预测系统(制作中)</h3>
                         <div>
-                            <a href="https://github.com/wangxucheng1995/dva-test/tree/master" target="_blank">源码链接</a>
-                            <a href="https://wangxucheng1995.github.io/dva-test/" target="_blank">项目预览</a>
+                            <a href="http://47.254.216.86:8080/#/" target="_blank">项目预览</a>
+                            <a href="https://github.com/wangxucheng1995/Vue-tfjs-pv-prediction-model"
+                                target="_blank">源码(前端)</a>
+                            <a href="https://github.com/wangxucheng1995/express-tfjs-pv-prediction"
+                                target="_blank">源码(后端)</a>
                         </div>
                     </header>
-
                     <h4>项目描述</h4>
-
-                    <p>参考ElementUI等库的思路，基于<strong>Vue2.6</strong>实现了自己的<strong>UI组件库</strong>，目前实现的组件有<strong>按钮</strong>，<strong>输入框</strong>，<strong>toast消息弹窗</strong>，<strong>布局系统</strong>等
-                    </p>
+                    <p>将<strong>Vue</strong>与人工智能框架<strong>TensorFlowJS</strong>相结合的<strong>自创</strong>项目，用户只需通过简单的点击与拖拽，在前端制作一个可视化的深度学习模型。在线训练模型，完成对未来光伏发电功率的预测，从而帮助电网进行荷载调节。
                     <p>
-                    <h4>主要工作</h4>
-                    <p>①分析需求，从零到一实现组件 ②统一打包,发布npm ③利用Vuepress展示成果，撰写文档</p>
-                    <p><strong>技术栈 : </strong><strong>Vue</strong>/Vuepress/Parcel/ES6/<strong>SCSS</strong></p>
+                    <h4>具体工作与自我改进</h4>
+                    <p>项目从想法的诞生，前后端开发，上线部署，均由本人一个独立完成</p>
+                    <p>前端:①使用<strong>canvas"手绘"神经网络</strong>,并通过监听改变完成对用户设置的动态响应
+                        ②使用<strong>ECharts</strong>完成对AI学习过程中损失曲线的展示
+                        ③使用<strong>ajax</strong>请求到数据之后直接Tensor化(张量化)，减少了用户点击学习之后的转换延迟
+                        ④使用<strong>全局路由守卫</strong>将未登录用户引导至登录页</p>
+                    <p>后端:①基于<strong>cookie与session</strong>完成了对用户登录的验证
+                        ②通过<strong>登录中间件</strong>防止未登录用户请求数据库中的数据，保护大数据中的用户隐私</p>
+                    <p>技术栈
+                        <strong>前端</strong>:<strong>Vue</strong>/<strong>Vue-Router</strong>/<strong>ECharts</strong>/<strong>ajax</strong>/<strong>TensorFlowJS</strong>
+                    </p>
                 </li>
                 <li class="page2">
                     <header>
@@ -220,8 +228,7 @@
                     </header>
                     <h4>项目描述</h4>
                     <p>一个极简主义的小清新导航网页。用户可以更改保存自己经常浏览的页面。通过敲击键盘即可跳转到相应的页面</p>
-                    <p><strong>技术栈 : </strong>jQuery/<strong>flex布局</strong>/<strong>LocalStorage
-                            SessionStorage</strong>/Iconfont</p>
+                    <p><strong>技术栈 : </strong>jQuery/<strong>flex布局</strong>/<strong>LocalStorage</strong>/Iconfont</p>
                 </li>
             </ul>
         </section>
@@ -245,10 +252,9 @@
         <section class="others">
             <h2>个人站点</h2>
             <ul>
-                <li><a href="https://wangxucheng1995.github.io/" target="_blank">我的技术博客</a>，总结对前端,算法以及其他计算机领域知识的理解</li>
-                <li><a href="https://leetcode-cn.com/u/n6meng-xin/"
-                        target="_blank">我的LeetCode</a>，用Java语言解决130多道LeetCode算法题</li>
+                <li><a href="https://leetcode-cn.com/u/n6meng-xin/" target="_blank">我的LeetCode</a></li>
                 <li><a href="https://github.com/wangxucheng1995" target="_blank">GitHub</a></li>
+                <li><a href="https://wangxucheng1995.github.io/" target="_blank">我的技术博客</a>，总结对前端,算法以及其他计算机领域知识的理解</li>
             </ul>
         </section>
         <section class="otherSkill">
@@ -256,9 +262,6 @@
             <h4>Python与数据分析</h4>
             <p>了解常用的机器学习及深度学习算法原理，使用过sklearn与TensorFlow框架</p>
             <p>能够使用NumPy与Pandas完成基础的数据分析。并利用matplotlib完成数据可视化工作</p>
-
-            <h4>Java</h4>
-            <p>熟悉java基础语法 熟悉面向对象的编程思想</p>
             <h4>语言技能</h4>
             <p>托业英语855分</p>
             <p>日语N1</p>
