@@ -105,6 +105,12 @@
             color: #999;
             text-decoration: none;
             border-bottom: 1px solid;
+        }
+
+        #notice {
+            color: #999;
+            text-align: right;
+            font-size: 4px;
         }</style>
     <style>@media(max-width : 500px) {
             body {
@@ -158,8 +164,8 @@
                     <li>拥有扎实的<strong>算法与数据结构</strong>知识</li>
                     <li>熟悉<strong>HTTP协议，跨域，JSONP，</strong>等网络基础知识，了解浏览器工作原理</li>
                     <li>熟悉<strong>Vue框架(Vue2+vue-router)</strong>
-                    </li><li>了解<strong>nodejs</strong>，并使用Express完成相关的实战项目</li>
-                    <li>了解<strong>canvas</strong>,能使用ECharts完成数据可视化工作</li>
+                    </li><li>了解<strong>Nodejs</strong>，并使用Express完成相关的实战项目</li>
+                    <li>了解<strong>Canvas</strong>,能使用ECharts完成数据可视化工作</li>
                 </ul>
             </div>
         </section>
@@ -175,19 +181,21 @@
                             <a href="https://github.com/wangxucheng1995/express-tfjs-pv-prediction" target="_blank">源码(后端)</a>
                         </div>
                     </header>
+                    <p id="notice">服务器位于海外，首次访问可能需要2-3分钟</p>
                     <h4>项目描述</h4>
                     <p>将<strong>Vue</strong>与人工智能框架<strong>TensorFlowJS</strong>相结合的<strong>自创</strong>项目，用户只需通过简单的点击与拖拽，在前端制作一个可视化的深度学习模型。在线训练模型，完成对未来光伏发电功率的预测，从而帮助电网进行荷载调节。
                     </p><p>
                     </p><h4>具体工作与自我改进</h4>
-                    <p>项目从想法的诞生，前后端开发，上线部署，均由本人一个独立完成</p>
+                    <p>项目从想法的诞生，前后端开发，算法特征工程,上线部署，均由本人一个独立完成</p>
                     <p>前端:①使用<strong>canvas"手绘"神经网络</strong>,并通过监听改变完成对用户设置的动态响应
                         ②使用<strong>ECharts</strong>完成对AI学习过程中损失曲线的展示
                         ③使用<strong>ajax</strong>请求到数据之后直接Tensor化(张量化)，减少了用户点击学习之后的转换延迟
                         ④使用<strong>全局路由守卫</strong>将未登录用户引导至登录页</p>
                     <p>后端:①基于<strong>cookie与session</strong>完成了对用户登录的验证
                         ②通过<strong>登录中间件</strong>防止未登录用户请求数据库中的数据，保护大数据中的用户隐私</p>
-                    <p>技术栈
-                        <strong>前端</strong>:<strong>Vue</strong>/<strong>Vue-Router</strong>/<strong>ECharts</strong>/<strong>ajax</strong>/<strong>TensorFlowJS</strong>
+                    <p><strong>技术栈</strong>
+                        :<strong>Vue</strong>/<strong>Vue-Router</strong>/<strong>ECharts</strong>/<strong>ajax</strong>/<strong>TensorFlowJS</strong>/<strong>Node</strong>/<strong>Express</strong>
+
                     </p>
                 </li>
                 <li class="page2">
@@ -195,8 +203,8 @@
                         <h3>css绘制皮卡丘</h3>
                         <p></p>
                         <div>
-                            <a href="https://github.com/wangxucheng1995/pikachu" target="_blank">源码链接</a>
                             <a href="https://wangxucheng1995.github.io/pikachu/dist/test.html" target="_blank">项目预览</a>
+                            <a href="https://github.com/wangxucheng1995/pikachu" target="_blank">源码链接</a>
                         </div>
                     </header>
 
@@ -209,8 +217,8 @@
                     <header>
                         <h3>极简主义导航网站</h3>
                         <span>
-                            <a href="https://github.com/wangxucheng1995/nav" target="_blank">源码链接</a>
                             <a href="https://wangxucheng1995.github.io/nav/dist/index.html" target="_blank">项目预览</a>
+                            <a href="https://github.com/wangxucheng1995/nav" target="_blank">源码链接</a>
                         </span>
                     </header>
                     <h4>项目描述</h4>
@@ -230,7 +238,8 @@
                         </div>
                     </header>
                     <h4>项目描述</h4>
-                    <p>基于sklearn框架，分别采用了随机深林与支持向量机算法。对日本关东地区的所有太阳能发电设备进行建模与功率预测。将工人智能技术运用于电网控制系统之中,从而更好地实现电网供给需求的调度</p>
+                    <p>基于sklearn框架，分别采用了随机深林与支持向量机算法。对日本关东地区的所有太阳能发电设备进行建模与功率预测。将工人智能技术运用于电网控制系统之中。并为自己的<strong>前端机器学习</strong>项目提供理论的参考
+                    </p>
                     <p>论文发表于IEEJ日本电气学会-电力技术研究会</p>
                     <p><strong>技术栈:</strong>Python/sklearn/Tensorflow/数据分析/神经网络</p>
                 </li>
